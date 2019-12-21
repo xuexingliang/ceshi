@@ -1,0 +1,27 @@
+$ git config --global user.name "薛兴亮"//因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字
+$ git config --global user.email "2573931135@qq.com"因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的邮箱
+$ mkdir learngit //创建一个目录
+$ pwd//显示当前目录
+$ git init//将目录变成git可以管理的仓库
+$ ls -ah//用于显示被隐藏的.git目录
+$ git add readme.txt//将文件添加到仓库其实是将文件修改添加到暂存区
+$ git commit -m "wrote a readme file"//将暂存区的所有内容提交到当前分支
+$ git status//掌握仓库当前的状态
+$ git diff readme.txt//显示文件被修改后和修改前的不同之处
+$ git log//显示从最近到最远的提交日志
+$ git log --pretty=oneline//如果认为当前显示的信息比较杂乱可以使用此命令让其变为一行
+$ git reset --hard HEAD^//从当前版本回退上一个版本
+$ git reset --hard 1904a//根据$git log中显示的commit id的值来恢复相应的版本
+$ cat readme.txt//显示当前文件夹的内容
+$ git reflog//用来记录命令历史便于查找对应的commit id回退到对应的版本
+$ git diff HEAD -- readme.txt//将暂存区的修改撤销掉，重新放回工作区
+$ git checkout -- readme.txt//撤销对文档的修改让文件回到最近一次git add或git commit时的状态
+$ git reset HEAD readme.txt//将内容从暂存区回退到工作区
+$ git merge dev//将指定的分支合并到当前的分支
+$ git checkout -b dev//添加一个分支并切换到这个分支
+$ git switch -c dev
+$ git branch//显示当前的所有分支
+$ git checkout master//切换回master分支
+$ git switch master
+$ git branch -d dev//删除dev分支
+ 
