@@ -1,0 +1,78 @@
+我展示的是一级标题  
+==============  
+我展示的是二级标题
+--------------
+# h1 标题
+## h2 标题
+### h3 标题
+#### h4 标题
+##### h5 标题
+###### h6 标题
+## 水平线
+runoob.com  
+google.com   
+*斜体文字*  
+_斜体文字_  
+**粗体文字**   
+__粗体文字__  
+***粗斜体文字***  
+___粗斜体文字___  
+***  
+* * *  
+*****
+- - -    
+
+----------  
+~~BAIDU.COM~~  
+<u>带下划线文本</u>  
+创建脚注格式类似这样[^RUNOOB]。
+
+[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
+## 列表
+
+无序
+
++ 第一项
+* 第二项
+- 第三项
+
+有序
+
+1. 第一项
+2. 第二项  
+3. 第三项  
+列表嵌套  
+1. 第一项：  
+      - 第一项嵌套的一个函数  
+	  - 第一项嵌套的第二个函数  
+2. 第二项：  
+      - 第二项嵌套的第一个函数
+	  - 第二项嵌套的第二个函数  
+> 区块引用  
+> 菜鸟教程  
+>最外层  
+>>第一层嵌套  
+>>>第二层嵌套  
+`printf()`函数   
+
+## 代码块  
+```javascript
+	<var a=2;
+	var b=3;
+	alert(a+b);>
+```  
+## 链接  
+这是一个链接 [菜鸟教程](https://www.runoob.com)  
+<https://www.runoob.com>  
+这个链接用1作为网址变量[Google][1]  
+这个链接用runoob作为变量[Runoob][runoob]  
+[1]: http://www.runoob.com/  
+[runoob]: http://www.runoob.com/  
+## Markdown图片  
+![Runoob图标](http://static.runoob.com/images/runoob-logo.png)  
+![Runoob图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")  
+## markdown 表格  
+|  左对齐   | 右对齐  |  居中对齐  |
+|  :----  | ----:  |  :-----:  |
+| 单元格  | 单元格 |  单元格  |
+| 单元格  | 单元格 |  单元格  |
